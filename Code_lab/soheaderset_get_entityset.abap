@@ -10,7 +10,8 @@
 *    DATA: ls_filter_select_options TYPE /iwbep/s_mgw_select_option,
 *          lt_select_options        TYPE /iwbep/t_cod_select_options,
 *          ls_select_options        TYPE /iwbep/s_cod_select_option.
-*
+
+    "1ª Maneira de implementar System query option $Filter
 *    READ TABLE it_filter_select_options INTO ls_filter_select_options WITH KEY property = 'Erdat'.
 *    IF ls_filter_select_options-property IS NOT INITIAL.
 *      lt_select_options[] = ls_filter_select_options-select_options[].
@@ -30,11 +31,18 @@
       FROM vbak INTO CORRESPONDING FIELDS OF TABLE et_entityset.
 *     WHERE erdat IN lr_erdat.
 
+    "2ª Maneira de implementar System query option $Filter
     /iwbep/cl_mgw_data_util=>filtering(
       EXPORTING
         it_select_options = it_filter_select_options
       CHANGING
         ct_data           = et_entityset ).
 
+    "Usando System query option $inlinecount
+    IF io_tech_request_context->has_inlinecount( ) = abap_true.
+      DESCRIBE TABLE et_entityset LINES es_response_context-inlinecount.
+    ELSE.
+      CLEAR es_response_context-inlinecount.
+    ENDIF.
 
   ENDMETHOD.

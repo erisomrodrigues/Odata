@@ -2,6 +2,7 @@
     DATA: lr_carrid   TYPE RANGE OF scarr-carrid,
           lr_currcode TYPE RANGE OF scarr-currcode.
 
+"Implementação para o FILTER
     LOOP AT it_filter_select_options ASSIGNING FIELD-SYMBOL(<fs_filter>).
       CASE <fs_filter>-property.
         WHEN 'Carrid'.
@@ -17,6 +18,7 @@
      WHERE carrid IN @lr_carrid
        AND currcode IN @lr_currcode.
 
+"Implementação para o SKIP, TOP e ORDERBY
     CALL METHOD /iwbep/cl_mgw_data_util=>paging
       EXPORTING
         is_paging = is_paging

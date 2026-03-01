@@ -4,8 +4,8 @@
 
 | Projeto/Descrição | Fonte | Link |
 | --- | --- | --- |
-| Serviços Odata com o SAP Gatway | SAP Community | [Link](https://community.sap.com/t5/technology-blog-posts-by-sap/odata-service-development-with-sap-gateway-code-based-service-development/ba-p/13232029) |
-| --- | --- | --- |
+| Serviços Odata com o SAP Gatway/Dados SalesOrder | SAP Community | [Link](https://community.sap.com/t5/technology-blog-posts-by-sap/odata-service-development-with-sap-gateway-code-based-service-development/ba-p/13232029) |
+
 
 
 1. Method [GET_ENTITYSET](/Code_lab/soheaderset_get_entityset.abap) implementando as system query options [_FILTER,INLINECOUNT_](/Code_lab/filter.abap)

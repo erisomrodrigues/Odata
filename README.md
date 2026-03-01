@@ -15,4 +15,4 @@
 5. Inserindo dados na _SCARR_ com o [_CREATE_ENTITY_](Code_lab/Moovi/companhiaaereass_create_entity.abap) usando as classes _IO_DATA_PROVIDER_ para ler os dados e a classe _/IWBEP/CL_MGW_ABS_DATA_ para mensagem de erro.
 6. Atualizando registros na _SCARR_ com method [_UPDATE_ENTITY_](Code_lab/Moovi/companhiaaereass_update_entity.abap) usando as classes io_data_provider para ler os dados do postman e _me->mo_context->get_message_container( )->add_message()_ para retornar mensagem de erro.
 7. Eliminando registros da _SCARR_ com method [_DELETE_ENTITY_](Code_lab/Moovi/companhiaaereass_delete_entity.abap) usando as classes io_data_provider para ler os dados do postman e _me->mo_context->get_message_container( )->add_message()_ para retornar mensagem de erro.
-8. Uso do _`GET_OSQL_WHERE_CAUSE`_ no `_SELECT_` de forma dinâmica no Method [_GET_ENTITYSET_](Code_lab/Sap_community/salesorderset_get_entityset.abap)
+8. Uso do _`GET_OSQL_WHERE_CAUSE`_ no _`SELECT`_ de forma dinâmica no Method [_GET_ENTITYSET_](Code_lab/Sap_community/salesorderset_get_entityset.abap)

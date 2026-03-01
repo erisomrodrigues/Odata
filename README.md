@@ -4,7 +4,7 @@
 
 | Projeto/Descrição | Repositório | Fonte |
 | --- | --- | --- |
-| Serviços Odata com o SAP Gatway/Navegar entre pedido de vendas e itens de pedidos de vendas | [GITHUB]() | [SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/odata-service-development-with-sap-gateway-code-based-service-development/ba-p/13232029) |
+| Serviços Odata com o SAP Gatway/Navegar entre pedido de vendas e itens de pedidos de vendas | [GITHUB](/Code_lab/Sap_community) | [SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/odata-service-development-with-sap-gateway-code-based-service-development/ba-p/13232029) |
 
 
 

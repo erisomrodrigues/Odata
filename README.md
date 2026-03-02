@@ -2,11 +2,11 @@
 
 > Desenvolvimentos Odata
 
-| Projeto/Descrição | Repositório | Fonte |
-| --- | --- | --- |
-| ZSEGW_SalesOder/Navegar entre pedido de vendas e itens de pedidos de vendas | [GITHUB](/Code_lab/Sap_community) | [SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/odata-service-development-with-sap-gateway-code-based-service-development/ba-p/13232029) |
+| Projeto | Descrição | Repositório | Fonte |
+| --- | --- | --- | --- |
+| ZSEGW_SalesOder | Navegar entre pedido de vendas e itens de pedidos de vendas | [GITHUB](/Code_lab/Sap_community) | [SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/odata-service-development-with-sap-gateway-code-based-service-development/ba-p/13232029) |
 
-
+## Topicos
 
 1. Method [GET_ENTITYSET](/Code_lab/soheaderset_get_entityset.abap) implementando as instruções [_FILTER,INLINECOUNT_](/Code_lab/filter.abap)
 2. Method [_GET_ENTITY_](/Code_lab/SOHEADERSET_GET_ENTITY.ABAP) com [RAISE EXCEPTION](/Code_lab/SOHEADERSET_GET_ENTITY.ABAP) para passar mensagem de erro quando não encontrar dados no _`SELECT`_

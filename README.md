@@ -1,4 +1,4 @@
-<h1 align="center"> 🌐 💻 Serviços Odata com SAP Gatway</h1>
+<h1 align="center"> 🌐 Serviços Odata com SAP Gatway</h1>
 
 > Desenvolvimentos Odata
 

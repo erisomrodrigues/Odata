@@ -16,4 +16,4 @@
 6. Atualizando registros na _SCARR_ com method [_UPDATE_ENTITY_](Code_lab/Moovi/companhiaaereass_update_entity.abap) usando as classes io_data_provider para ler os dados do postman e _me->mo_context->get_message_container( )->add_message()_ para retornar mensagem de erro.
 7. Eliminando registros da _SCARR_ com method [_DELETE_ENTITY_](Code_lab/Moovi/companhiaaereass_delete_entity.abap) usando as classes io_data_provider para ler os dados do postman e _me->mo_context->get_message_container( )->add_message()_ para retornar mensagem de erro.
 8. Uso do _`GET_OSQL_WHERE_CAUSE`_ no _`SELECT`_ de forma dinâmica quando a instrução _`$FILTER`_ no Method [_GET_ENTITYSET_](Code_lab/Sap_community/salesorderset_get_entityset.abap).
-9. _`GET_NAVIGATION_PATH`_ e _`GET_CONVERTED_SOURCE_KEYS`_ no method [_GET_ENTITYSET_](Code_lab/Sap_community/salesorderset_get_entityset.abap) para trazer dados das CDS _SEPM_I_SALESORDERITEM_E_ e _SEPM_I_SALESORDER_E_.
+9. _`GET_NAVIGATION_PATH`_ e _`GET_CONVERTED_SOURCE_KEYS`_ no method [_GET_ENTITYSET_](Code_lab/Sap_community/salesorderset_get_entityset.abap) para trazer dados das CDS _`SEPM_I_SALESORDERITEM_E`_ e _`SEPM_I_SALESORDER_E`_.
